@@ -45,6 +45,9 @@ The dataset includes the following columns:
 
 Analyses on San Francisco City Employee Salaries 
 
+Benefits : 36163 rows has nan out of 148654 =24% --> so I used median to fill the nan values
+BasePay : 605 has null values, = 0.4% -->here , i dropped rows , doesnt make significant changes
+
 1. **Distribution of Total Pay**
    - Most employees earn within lower pay ranges, creating a right-skewed distribution.
    - A few outliers with very high pay stretch the tail, indicating income disparity.
